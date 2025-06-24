@@ -1,14 +1,5 @@
 #hotel managemnt imports
 
-import os
-import sys
-import math 
-import datetime
-import time
-import sqlite3 
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
 economy_room ={
     "room_type": "Economy",
     "price": 100,
@@ -40,5 +31,3 @@ suiteRoomAvailable = 10
 economyRoomList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 deluxeRoomList = [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
 suiteRoomList = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
-
-
